@@ -1,11 +1,21 @@
-#ifndef ANIMAL_H
-#define ANIMAL_H
-
-#include <string>
+#include <iostream>
 using namespace std;
 
-//define animal class here 
-
-
-
-#endif
+class animal{
+    
+    private:
+    string name;
+    int age;
+    bool ishungry;
+    
+    public:
+    animal(string n,int g,bool h);
+    animal();
+    ~animal();
+    void display();
+    void feed();
+    
+    
+    
+    
+};
