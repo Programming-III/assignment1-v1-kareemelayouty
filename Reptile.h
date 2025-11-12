@@ -1,16 +1,16 @@
-#ifndef REPTILE_H
-#define REPTILE_H
+#include <iostream>
+using namespace std;
 
-#include "Animal.h"
-
-//define reptile class here
-
-
-
-
-
-
-
-
-
-#endif
+class reptile:public animal{
+    
+    private:
+    bool isvenomus;
+    
+    public:
+    reptile(string n,int g,bool h,bool v);
+   reptile();
+    ~reptile();
+    
+    
+    
+};
