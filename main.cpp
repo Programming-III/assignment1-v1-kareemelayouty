@@ -150,12 +150,12 @@ int main()
     enclosure c1(15);
     
     visitor v1("sarah ali",3);
-     visitor v1();
+    
      animal* a=new mammal();
      animal* b=new bird();
      animal* c=new reptile();
     c1.displayanimals();
-    c2.displayanimals();
+    
     v1.displayinfo();
     return 0;
 }
